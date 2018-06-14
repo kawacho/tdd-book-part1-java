@@ -2,7 +2,7 @@ package money;
 
 public class Dollar {
 
-	int amount;
+	int amount = 10;
 
 	public Dollar(int i) {
 	}
