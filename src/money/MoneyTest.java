@@ -20,7 +20,7 @@ class MoneyTest {
 		assertTrue(Money.franc(5).equals(Money.franc(5)));
 		assertFalse(Money.franc(5).equals(Money.franc(6)));
 		
-		assertFalse(new Franc(5).equals(Money.dollar(5)));
+		assertFalse(Money.franc(5).equals(Money.dollar(5)));
 	}
 	
 	@Test
