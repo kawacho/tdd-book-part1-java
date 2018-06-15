@@ -10,4 +10,7 @@ public class Dollar extends Money {
 		return new Dollar(this.amount * multiplier);
 	}
 	
+	String currency() {
+		return "USD";
+	}
 }
