@@ -39,5 +39,9 @@ public class Money implements Expression {
 	Expression plus(Money addend) {
 		return new Sum(this, addend);
 	}
+
+	Money reduce(String to) {
+		return this;
+	}
 	
 }
