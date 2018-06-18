@@ -67,8 +67,4 @@ class MoneyTest {
 		assertEquals(Money.dollar(1), result);
 	}
 	
-	@Test
-	public void testArrayEquals() {
-		assertEquals(new Object[] { "abc" }, new Object[] { "abc" });
-	}
 }
