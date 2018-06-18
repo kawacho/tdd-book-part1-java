@@ -11,8 +11,7 @@ class Sum implements Expression {
 	}
 	
 	public Expression plus(Expression addend) {
-		// TODO: 
-		return null;
+		return new Sum(this, addend);
 	}
 
 	public Money reduce(Bank bank, String to) {
