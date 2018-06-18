@@ -67,4 +67,10 @@ class MoneyTest {
 		assertEquals(Money.dollar(1), result);
 	}
 	
+	@Test
+	public void testIdentityRate() {
+		// 同じ通貨同士ならレートは 1
+		assertEquals(1, new Bank().rate("USD", "USD"));
+	}
+	
 }
